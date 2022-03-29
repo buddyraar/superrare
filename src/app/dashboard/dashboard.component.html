@@ -1,0 +1,62 @@
+<div>
+<div class="main-tag">
+    <div class="col-6 heading">
+        <a [routerLink]="['/']" class="nav-item nav-link text-dark active">
+        <h3 class="headTag">SuperRare</h3></a>
+    </div>
+    <!-- <div class="col-6 navTag" *ngIf="currenturl != '/following-tab' "> -->
+        <div class="col-6 navTag" *ngIf="!isFollowingTab">
+        <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="javascript:void(0)" class="nav-item nav-link text-dark active mainNav">Market</a>
+                <a href="javascript:void(0)" class="nav-item nav-link text-dark active mainNav">Features</a>
+                <a href="javascript:void(0)" class="nav-item nav-link text-dark active mainNav">Community</a>
+                <a [routerLink]="['/search']" class="nav-item nav-link text-dark active mainNav">Search</a>
+                <a href="javascript:void(0)" class="nav-item nav-link text-dark active mainNav">Sign In</a>
+            </div>
+        </div>
+        </nav>
+    </div>
+</div>
+<!-- <div class="subTag">
+    <div class="col-4">
+        <h1 class="ArtHead">Collect digital art</h1>
+        <p class="subPara">Buy and sell NFTs from the world’s top artists</p>
+        <button class="btn-dark rounded collectBtn">START COLLECTING</button>
+    </div>
+    <div class="col-6">
+        <h3 class="arthead">FEATURED ART</h3>
+        <img src="./assets/images/1.png" class="image1" alt="tv" />
+        <div class="">
+            <p class="art">ARTIST</p>
+            <span>@qwertyuioop</span>
+        </div>
+        <div class="">
+            <p class="date">RELEASE DATE</p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-dark footerPart">
+    <div class="col-4 titlefooter">
+        <div class="footerLine">
+            <h4 class="text-light textfooter">The future of art collecting</h4>
+            <p class="text-light parafooter">Browse and build your collection of the world’s most cutting-edge digital art</p>
+        </div>
+    </div>
+    <div class="col-4 titlefooter">
+        <div class="footerLine">
+            <h4 class="text-light textfooter">Pioneering art market royalties</h4>
+            <p class="text-light parafooter">Artists receive continuous royalties for all secondary sales on their artworks – forever</p>
+        </div>
+    </div>
+    <div class="col-4 titlefooter">
+        <div class="footerLine">
+            <h4 class="text-light textfooter">Built for longevity</h4>
+            <p class="text-light parafooter">All transactions happen on-chain, creating a tamper-proof record of each artwork’s history</p>
+            <a [routerLink]="['/search']" class="nav-item nav-link text-light border active learnMoreBtn">LEARN MORE</a>
+    </div>
+    </div>
+</div> -->
+</div>

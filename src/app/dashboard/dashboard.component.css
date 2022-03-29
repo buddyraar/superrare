@@ -1,0 +1,32 @@
+.main-tag{
+    padding: 15px;
+    display: flex;
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.headTag{
+    font-family: "Eksell Display Large";
+    font-size: 20px;
+    font-weight: bold;
+}
+.navTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainNav:hover{
+    text-decoration: underline;
+}
+@media screen and (min-width:768px) {
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }    
+}
+.ArtHead{
+    font-weight: 600;
+    font-family: "Eksell Display Large";
+    font-size: 4.15rem;
+}

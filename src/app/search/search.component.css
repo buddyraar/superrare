@@ -1,0 +1,71 @@
+.searchContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+.searchHead{
+    font-family: "Eksell Display Large";
+}
+.search-text{
+    border-bottom: 1px solid gray !important;
+    border-color: white; 
+}
+.search-text:focus{
+    box-shadow: none;
+    border-bottom: 2px solid black !important;
+    border-color: white;
+}
+.trendingTagHead{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+.trending-section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footerHead{
+    display: flex;
+    justify-content: center;
+}
+.header-text{
+    margin-top: 50px;
+    padding: 20px;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+.link-text{
+    font-family: "Eksell Display Large";
+    font-size: 24px;
+    text-decoration: none;
+}
+.link-subText{
+    text-decoration: none;
+    display: block;
+}
+.email-content{
+    display: flex;
+    justify-content: center;
+}
+.email-btn{
+    width: 20em;
+}
+.email-btn:focus{
+    box-shadow: none;
+    border: 1px solid black;
+    border-color: transparent;
+    border-radius: 4px 0 0 4px;
+}
+.subscribeBtn{
+    width: 15%;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+}

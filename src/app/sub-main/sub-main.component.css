@@ -1,0 +1,22 @@
+.tab-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-top: 5em;
+}
+.tab-part{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.tab-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+.for-tab{
+    margin-left: 200px;
+}
+.alleyImg{
+    width: 63%;
+}

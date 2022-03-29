@@ -1,0 +1,12 @@
+.following-content{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+}
+.wallet{
+    justify-content: center;
+}
+.followingBtn{
+    width: 25%;
+    padding: 20px;
+}

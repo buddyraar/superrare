@@ -1,0 +1,54 @@
+.subTag{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 80px;
+    padding: 30px;
+}
+.subPara{
+    font-family: "Founders Grotesk Regular";
+    font-size: 25px;
+    font-weight: 600;
+}
+.image1{
+    width: 100%;
+}
+.arthead{
+    font-family: "Founders Grotesk Medium";
+    font-size: 18px;
+    font-weight: 600;
+}
+.collectBtn{
+    padding: 20px;
+    margin: 20px;
+}
+/* .art{
+    float: left;
+} */
+.date{
+    /* float: right; */
+    margin-left: 100px;
+}
+.footerPart{
+    display: flex;
+}
+.titlefooter{
+    padding: 50px;
+}
+.textfooter{
+    font-size: 28px;
+    font-family: "Founders Grotesk Medium";
+}
+.parafooter{
+    font-family: "Founders Grotesk Medium";
+}
+.footerLine{
+    border-left: 1px solid rgb(255, 255, 255);
+    padding-left: 18px;
+}
+.learnMoreBtn{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
